@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Please enter the GitHub username
+  form(name='gitusers' action='/data' method='post' onsubmit='return validateForm()')
+    input(type='text' name='username' id='uname')
+    br
+    br
+    input(type='submit' id='submitbutton')
+

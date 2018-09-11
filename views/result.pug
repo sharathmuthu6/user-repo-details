@@ -1,0 +1,20 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        block content
+
+        h2 Github User Repos
+        table(style='width:100%')
+            tr
+                th Number of Repositories
+                th Number of Forked repos
+                th Number of self-repos
+            tr
+                td= totalRepos
+                td= forkedRepos
+                td= selfRepos
+        br
+        a(href='/') Go back
