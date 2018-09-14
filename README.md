@@ -9,3 +9,7 @@ Steps to run the app:
 3. Run the app `npm start`
 4. Open the browser and enter `http://localhost:3000`
 5. Enter a Github username and click on Submit button.
+
+Testing:
+
+Execute the command `npm test` to Unit test the application.
